@@ -67,7 +67,7 @@ def ask_token_in_console() -> str:
 
 BOT_TOKEN = load_token_from_env()
 if not BOT_TOKEN:
-    BOT_TOKEN = ask_token_in_console()
+    BOT_TOKEN = "8922510024:AAGQHPfQkaUcIIWXb_Dmf2S-1607dDiSjIc"
     save_token_to_env(BOT_TOKEN)
     print(f"✅ Токен сохранён в {ENV_PATH}. При следующих запусках спрашивать не буду.\n")
 
