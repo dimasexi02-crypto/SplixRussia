@@ -1,2 +1,0 @@
-# SplixRussia
-Net ego
